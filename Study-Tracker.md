@@ -73,6 +73,12 @@ Update the checkbox and status as you work through problems. Mirror the same val
 - [ ] [[Maximum-Subarray]]
 - [ ] [[Longest-Increasing-Subsequence]]
 
+### Real-World & System Design
+- [ ] [[Process-Stock-Transactions-to-Generate-Portfolio]]
+- [ ] [[Design-Messenger-Chat-App]]
+- [ ] [[Stock-Ledger-Reconciliation]]
+- [ ] [[Portfolio-Data-Parsing-From-Strings]]
+
 ## Notes / Weak Spots Log
 
 <!-- Append dated entries as you go, e.g.: -->

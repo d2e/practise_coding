@@ -4,12 +4,17 @@ Guidance for AI agents (and humans) working in this repository.
 
 ## What this repo is
 
-An Obsidian vault of LeetCode-style tutorial notes for the 33 problems tagged
-"Addepar" on [Interview Solver](https://interviewsolver.com/interview-questions/addepar).
-It is a learning resource, not a buildable project — there is no build step,
-package manifest, or test suite. "Correctness" here means: problem statements
-match the real LeetCode problem, solutions are algorithmically correct and
-match their stated complexity, and Obsidian wikilinks resolve.
+An Obsidian vault of interview-prep tutorial notes. It started as the 33
+LeetCode-style problems tagged "Addepar" on
+[Interview Solver](https://interviewsolver.com/interview-questions/addepar),
+and now also includes `12-Real-World-System-Design/`, a folder of
+crowd-sourced real interview reports (Glassdoor/Naukri) reconstructed into
+tutorials — see that folder's own `00-index.md` for how it differs from the
+other 11. It is a learning resource, not a buildable project — there is no
+build step, package manifest, or test suite. "Correctness" here means:
+problem statements match the real LeetCode problem (or, for folder 12, are
+clearly flagged as reconstructions), solutions are algorithmically correct
+and match their stated complexity, and Obsidian wikilinks resolve.
 
 Entry points: [[00-MOC]] (map of content), [[Patterns-Cheatsheet]], [[Study-Tracker]].
 
@@ -107,6 +112,29 @@ for f in $(find . -name "*.md"); do c=$(grep -c '^```' "$f"); [ $((c % 2)) -ne 0
   Dijkstra/BFS-over-implicit-state-graph technique instead. Preserve that
   caveat if you touch this file — don't quietly firm up details that haven't
   been verified against the current LeetCode listing.
+
+## Two note flavors
+
+- **Algorithmic (folders `01`-`11`)** — the template above. Problem
+  statement must match a real, verifiable LeetCode problem.
+- **Real-world/system-design (`12-Real-World-System-Design/`)** — source
+  material is a one-line crowd-sourced interview report, not a precise spec.
+  Every note in this folder must:
+  1. Open with a `> [!warning] Reconstructed from a crowd-sourced interview
+     report` callout stating what's known vs. reconstructed.
+  2. For coding-flavored items, still follow the standard template above
+     (Problem Statement through Follow-up / Variants, Python + Java).
+  3. For pure system-design items (no algorithm to code), use instead:
+     `Problem Prompt` → `Requirements Gathering` (Functional/Non-Functional)
+     → `Clarifying Questions to Ask` → `API Design` (table) → `Data Model`
+     → `High-Level Architecture` → `Real-Time Delivery & Scaling` (or the
+     domain-appropriate equivalent) → `Trade-offs & Follow-ups` →
+     `Related Problems`. No Python/Java solution, no Complexity Analysis —
+     there's no single algorithm being graded.
+  If a reported item is too vague to reconstruct anything from (e.g. "unnamed
+  technical task, tight time limit"), don't invent a tutorial for it — just
+  log it as a one-line mention in the folder's `00-index.md` so the source
+  list stays complete without fabricating content.
 
 ## Adding a new problem
 

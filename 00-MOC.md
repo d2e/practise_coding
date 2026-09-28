@@ -25,6 +25,7 @@ See also: [[Patterns-Cheatsheet]] for a single-page quick reference across all p
 - [[09-Graphs-and-BFS-DFS/00-index|09 · Graphs, BFS & DFS]] (5)
 - [[10-Backtracking/00-index|10 · Backtracking]] (1)
 - [[11-Dynamic-Programming/00-index|11 · Dynamic Programming]] (4)
+- [[12-Real-World-System-Design/00-index|12 · Real-World & System Design]] (4)
 
 ## Full Problem List (all 33)
 
@@ -82,6 +83,13 @@ See also: [[Patterns-Cheatsheet]] for a single-page quick reference across all p
 - [[Minimum-Path-Sum]]
 - [[Maximum-Subarray]]
 - [[Longest-Increasing-Subsequence]]
+
+### 12 · Real-World & System Design
+*Crowd-sourced interview reports (Glassdoor/Naukri), not from the Interview Solver problem bank — see [[12-Real-World-System-Design/00-index|the folder index]] for important caveats about these.*
+- [[Process-Stock-Transactions-to-Generate-Portfolio]]
+- [[Design-Messenger-Chat-App]] *(system design — different template)*
+- [[Stock-Ledger-Reconciliation]]
+- [[Portfolio-Data-Parsing-From-Strings]]
 
 ## How to Use This Vault
 
